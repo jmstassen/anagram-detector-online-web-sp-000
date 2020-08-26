@@ -16,3 +16,4 @@ class Anagram
     end
     return solution
   end
+end
