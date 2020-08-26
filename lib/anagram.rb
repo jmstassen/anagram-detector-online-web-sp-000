@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(array_of_possible_anagrams)
+    @solution = []
     array_of_possible_anagrams.each do |possible|
       possible_array = possible.split("")
       word_array = @word.split("")
