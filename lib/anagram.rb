@@ -15,7 +15,7 @@ binding.pry
       if possible_array.sort == word_array.sort
         @solution << possible
       else
-        @solution = []
+        @solution = @solution
       end
     end
     return @solution
