@@ -12,6 +12,7 @@ class Anagram
       if possible_array.sort == word_array.sort
         @solution = possible
       else
+        @solution = []
       end
     end
     return @solution
