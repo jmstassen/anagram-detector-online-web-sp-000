@@ -1,5 +1,5 @@
 class Anagram
-
+  @solution = []
   def initialize(word)
     anagram = self
     @word = word
