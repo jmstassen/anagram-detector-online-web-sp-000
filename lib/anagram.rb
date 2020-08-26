@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram
 
   def initialize(word)
@@ -10,6 +11,7 @@ class Anagram
     array_of_possible_anagrams.each do |possible|
       possible_array = possible.split("")
       word_array = @word.split("")
+binding.pry
       if possible_array.sort == word_array.sort
         @solution << possible
       else
