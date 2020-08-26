@@ -10,10 +10,10 @@ class Anagram
       possible_array = possible.split("")
       word_array = @word.split("")
       if possible_array.sort == word_array.sort
-        solution = possible
+        @solution = possible
       else
       end
     end
-    return solution
+    return @solution
   end
 end
